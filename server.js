@@ -4,7 +4,7 @@ const app=express();
 
 const porta=process.env.PORTA || 3000;
 
-app.get("/",(req,res)=>{
+app.get("https://uni-social.onrender.com/",(req,res)=>{
     res.json({error:false,message:"Hello World!"})
 });
 
