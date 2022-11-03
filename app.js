@@ -2,7 +2,7 @@ const express=require("express");
 
 const app=express();
 
-const port=process.env.PORTA || 3000;
+const port=process.env.PORTA || 3333;
 /*
 app.get("https://uni-social.onrender.com/",(req,res)=>{
     res.json({error:false,message:"Hello World!"});
