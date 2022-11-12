@@ -10,7 +10,6 @@ ___
 </h4>
 
 ## Tabela de sumários
-___
 
 <!--ts-->
    * [Descrisão](#descrisão)
@@ -24,7 +23,6 @@ ___
 <!--te-->
 
 ## Funcionalidades
-___
   ### Módulos ads:
     [] Publicar ads(tanto os alunos, como a inst)
     [] Exibir ads(recents, antigas)
