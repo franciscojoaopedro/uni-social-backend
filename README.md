@@ -36,7 +36,7 @@ ___
 ---
 
 > Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta que é o 
-> [Git](https://git-scm.com). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), [node](https://nodejs.org/en/) para rodar o javascript na máquina, e a [yarn](https://yarnpkg.com/) para gerenciamento dos pacotes.  
+> [Git](https://git-scm.com). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), [node](https://nodejs.org/en/) para rodar o javascript na máquina, a extensão do vscode [ESLint]() para mostrar error de sintaxe,e a [yarn](https://yarnpkg.com/) para gerenciamento dos pacotes.  
 
 ## Passo para instalação
 ___
