@@ -1,9 +1,11 @@
-const express = require('express')
+const express = require('express');
+const cors = require('cors');
+const routes = require('./routes');
 
-const app = express()
+const app = express();
 
-const port = process.env.PORTA || 3333
+app.use(cors());
+app.use(express.json());
+app.routes(routes);
 
-app.get('/', (req, res) => res.type('html').send(html))
-
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(process.env.PORTA || 3333);
