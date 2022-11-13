@@ -70,5 +70,34 @@ $ npm start
 ## Norma de como trabalhar Projeto
 ___
 
+<ol>
+  <li>Trabalhar só nos sábados e domingos horário a sua escolha.</li>
+  <li>Relatar sobre as alterações feitas no projeto no grupo do facebook ou whatsapp.</li>
+  <li>Documentar código verboso.</li>
+  <li>Escrever o código em português assim como os commits.</li>
+  <li>Refactor código que achas que deverias fazer melhor antes de lançar no github.</li>
+  <li>Qualquer erro que está dando, tenta primeiro solucionar antes, se não conseguir comunica sobre o erro.</li>
+  <li>
+    Criar sempre uma branch quando se trabalha numa funcionalidade ou interface.
+      
+      ex: 
+        Antes de desenvolver:
+          git branch feat/login - criar uma branch
+          git checkout feat/login - ativar para começar
+
+        Depois desenvolver tudo:
+          git checkout main - ativar o main
+          git merge feat/login - junta todos os feitos da branch feat/login ao main.
+          git branch feat/login -D - deletar a branch.  
+  </li>
+  <li>
+    Ao fazer um git push deve-se fazer sempre isto.
+    
+    ex:
+      git pull - para baixar novas alterações.
+      git push ou git push origin main - casos não ouver conflitos 
+  </li>
+</ol>
+
 ## Contribuidores
 ___
