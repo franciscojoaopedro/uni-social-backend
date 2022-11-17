@@ -67,7 +67,7 @@ $ npm start
 - [cors](https://git-scm.com)
 - [express](https://react-icons.github.io/react-icons/)
 
-## Norma de como trabalhar Projeto
+## Norma de como trabalhar no Projeto
 ___
 
 <ol>
@@ -101,3 +101,36 @@ ___
 
 ## Contribuidores
 ___
+<div style="display: flex; align-items: center; gap: 6px 12px; margin-top: 24px;">
+  <img 
+    src="https://avatars.githubusercontent.com/u/79996151?v=4"
+    width="6.5%"
+    height="2%"
+    style="border-radius: 50%;"
+  /> 
+  <span style="font-size: 1.5rem;">Ngunga dev </span>
+  <a href="https://github.com/franciscojoaopedro">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <span style="display: flex; align-items: center; font-size: 1.3rem; margin-left: 6px;">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>: franciscojoaopedro1998@gmail.com
+  </span>
+</div>
+
+<div style="display: flex; align-items: center; gap: 6px 12px; margin-top: 24px;">
+  <img 
+    src="https://avatars.githubusercontent.com/u/79996151?v=4"
+    width="6.5%"
+    height="2%"
+    style="border-radius: 50%;"
+  /> 
+  <span style="font-size: 1.5rem;">Walany Costa</span>
+  <a href="https://github.com/Walany Costa">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <span style="display: flex; align-items: center; font-size: 1.3rem; margin-left: 6px;">
+    <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>  : walanycosta@outlook.com
+  </span>
+</div>
