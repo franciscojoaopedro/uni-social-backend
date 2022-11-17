@@ -36,7 +36,8 @@ ___
 ---
 
 > Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta que é o 
-> [Git](https://git-scm.com). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), [node](https://nodejs.org/en/) para rodar o javascript na máquina, a extensão do vscode [ESLint]() para mostrar error de sintaxe,e a [yarn](https://yarnpkg.com/) para gerenciamento dos pacotes.  
+> [Git](https://git-scm.com). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/), [node](https://nodejs.org/en/) para rodar o javascript na máquina, a extensão do vscode [ESLint]() para mostrar error de sintaxe, a extensão [prettier]() para facilitar em ler e escrever regra do pretttier,a [EditorConfig] para manter padrão independentemente do editor de codigo,e a [yarn](https://yarnpkg.com/) para gerenciamento dos pacotes.  
+
 
 ## Passo para instalação
 ___
@@ -66,6 +67,11 @@ $ npm start
 - [nodemon](https://code.visualstudio.com/)
 - [cors](https://git-scm.com)
 - [express](https://react-icons.github.io/react-icons/)
+- [pritter](https://prettier.io/)
+- [eslint](https://eslint.org/)
+- [editorConfig](https://editorconfig.org/)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
 
 ## Norma de como trabalhar no Projeto
 ___
