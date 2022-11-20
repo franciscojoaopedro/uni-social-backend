@@ -107,11 +107,12 @@ ___
 
 ## Contribuidores
 ___
+
 <div style="display: flex; align-items: center; gap: 6px 12px; margin-top: 24px;">
   <img 
     src="https://avatars.githubusercontent.com/u/79996151?v=4"
-    width="6.5%"
-    height="2%"
+    width="5%"
+    height="1.5%"
     style="border-radius: 50%;"
   /> 
   <span style="font-size: 1.5rem;">Ngunga dev </span>
@@ -126,9 +127,9 @@ ___
 
 <div style="display: flex; align-items: center; gap: 6px 12px; margin-top: 24px;">
   <img 
-    src="https://avatars.githubusercontent.com/u/79996151?v=4"
-    width="6.5%"
-    height="2%"
+    src="https://avatars.githubusercontent.com/u/81929793?v=4"
+    width="5%"
+    height="1.5%"
     style="border-radius: 50%;"
   /> 
   <span style="font-size: 1.5rem;">Walany Costa</span>
