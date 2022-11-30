@@ -1,5 +1,9 @@
 <h1 align="center">UniSocial - Backend</h1>
 
+<div align="center">
+  <img width="80%" height="10%" src="public/banner_model.png">
+</div>
+
 ## Descrisão
 ___
 
