@@ -6,5 +6,5 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.routes(routes);
+app.use(routes);
 app.listen(process.env.PORTA || 3333);
