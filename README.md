@@ -76,6 +76,8 @@ $ npm start
 - [editorConfig](https://editorconfig.org/)
 - [husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
+- [knex](https://knexjs.org/)
+- [sqlite3](https://github.com/TryGhost/node-sqlite3)
 
 ## Norma de como trabalhar no Projeto
 ___
