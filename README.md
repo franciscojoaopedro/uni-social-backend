@@ -1,7 +1,7 @@
 <h1 align="center">UniSocial - Backend</h1>
 
 <div align="center">
-  <img width="80%" height="10%" src="public/banner_model.png">
+  <img width="80%" height="10%" src="public/banner_model2.png">
 </div>
 
 ## Descrisão
@@ -106,8 +106,8 @@ ___
     Ao fazer um git push deve-se fazer sempre isto.
     
     ex:
-      git pull - para baixar novas alterações.
-      git push ou git push origin main - casos não ouver conflitos 
+      git pull origin main:dev- para baixar novas alterações.
+      git push origin main:dev - casos não ouver conflitos 
   </li>
 </ol>
 
