@@ -1,3 +1,5 @@
+const CampoObrigatorio = require('./error/campo-obrigatorio');
+
 class Usuario {
     nome;
     email;
@@ -11,8 +13,10 @@ class Usuario {
         this.password = password;
     }
 
-    verificarEmail() {
-        console.log(`Email verificado ${this.email}`);
+    validarCampos() {
+        if (!this.nprocesso || !this.nome || !this.email || !this.password) {
+            throw new CampoObrigatorio();
+        }
     }
 }
 

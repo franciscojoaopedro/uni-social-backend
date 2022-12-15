@@ -1,4 +1,5 @@
 const connection = require('./connection');
+
 module.exports = {
     inserir: async usuario => {
         return await connection('tb_usuario').insert({
