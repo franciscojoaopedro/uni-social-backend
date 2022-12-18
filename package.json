@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js",
+    "knex:m": "knex migrate:latest",
+    "knex:md": "knex migrate:down",
+    "knex:s": "knex seed:run",
     "prepare": "husky install"
   },
   "author": "",
@@ -18,6 +21,7 @@
     "sqlite3": "^5.1.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
