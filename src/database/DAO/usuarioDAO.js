@@ -9,4 +9,9 @@ module.exports = {
             password: usuario.password,
         });
     },
+    buscarPorNProcesso: async ({ nprocesso }) => {
+        return await connection('tb_usuario')
+            .where('nprocesso', nprocesso)
+            .select('*');
+    },
 };
