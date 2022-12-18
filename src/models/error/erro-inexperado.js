@@ -1,5 +1,5 @@
 class ErroInexperado extends Error {
-    statusCode = 422;
+    statusCode = 500;
 
     constructor() {
         super('Ocorreu um erro. Por favor tente novamente');
