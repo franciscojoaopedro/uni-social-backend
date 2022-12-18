@@ -1,5 +1,6 @@
 const Usuario = require('../models/usuario');
 const usuarioDAO = require('../database/DAO/usuarioDAO');
+const encriptarPassword = require('../infra/encriptarPassword/encriptar');
 
 module.exports = {
     registrar: async (req, res) => {
@@ -7,12 +8,16 @@ module.exports = {
             const { nprocesso, nome, email, password } = req.body;
             const usuario = new Usuario(nprocesso, nome, email, password);
             usuario.validarCampos();
-            await usuarioDAO.inserir(usuario);
-            return res.status(500);
+            usuario.ValidarEmail();
+            const passwordEncriptado = await encriptarPassword(password);
+            await usuarioDAO.inserir({
+                ...usuario,
+                password: passwordEncriptado,
+            });
         } catch (error) {
             return res
                 .status(error.statusCode)
-                .json({ messagem: error.message });
+                .json({ mensagem: error.message });
         }
     },
 };

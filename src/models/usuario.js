@@ -1,4 +1,5 @@
 const CampoObrigatorio = require('./error/campo-obrigatorio');
+const EmailInvalido = require('./error/Email-invalido');
 
 class Usuario {
     nome;
@@ -14,9 +15,14 @@ class Usuario {
     }
 
     validarCampos() {
-        if (!this.nprocesso || !this.nome || !this.email || !this.password) {
+        if (!this.nprocesso || !this.nome || !this.email || !this.password)
             throw new CampoObrigatorio();
-        }
+    }
+
+    ValidarEmail() {
+        const emailRegex =
+            /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+        if (!emailRegex.test(this.email)) throw new EmailInvalido();
     }
 }
 
