@@ -30,7 +30,7 @@ ___
   ### Módulos ads:
     [] Publicar ads(tanto os alunos, como a inst)
     [] Exibir ads(recents, antigas)
-    [] signup (alunos)
+    [x] registrar
     [] login (alunos)
     [] comentar em ads
     [] curtir em ads
@@ -56,6 +56,12 @@ $ cd uni-social-backend
 # Instale as dependências
 $ npm install
 
+#Cria as tabelas no banco de dados de forma automática
+$ npm run knex:m
+
+#Cria registos na tabelas de forma automática
+$ npm run knex:s
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 
@@ -78,6 +84,10 @@ $ npm start
 - [lint-staged](https://github.com/okonet/lint-staged)
 - [knex](https://knexjs.org/)
 - [sqlite3](https://github.com/TryGhost/node-sqlite3)
+- [bscrypt](https://www.npmjs.com/package/bcrypt)
+- [fakerjs](https://fakerjs.dev/guide/)
+- [jonwebtokens](https://www.npmjs.com/package/jsonwebtoken)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Norma de como trabalhar no Projeto
 ___
