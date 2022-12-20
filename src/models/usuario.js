@@ -26,6 +26,10 @@ class Usuario {
                 'Email Inválido. Por favor escreve bem o seu email',
             );
     }
-}
 
+    verificarUsuarioSeExiste(usuarioExiste) {
+        if (usuarioExiste.length !== 0)
+            throw new ErroDeValidacao('Já existe uma conta pra esse usuario');
+    }
+}
 module.exports = Usuario;
